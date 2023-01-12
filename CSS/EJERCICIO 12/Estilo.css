@@ -1,0 +1,26 @@
+.Contenedora{
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+}
+.Cabecera{
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+}
+
+.Izquierdo{
+    width: 20%;
+    background-color: lightyellow;
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+
+.Derecha{
+    width: 80%;
+    background-color: violet;
+    position: relative;
+    left: 250px;
+    
+}

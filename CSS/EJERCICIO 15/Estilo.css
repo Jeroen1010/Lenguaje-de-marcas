@@ -1,0 +1,27 @@
+#Contenedora {
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+}
+
+#Menu_Cabecera a {
+      width: 100%;
+      height: 100%;
+      padding: 12px;
+      background-color: aqua;
+      text-align: center;
+      font-size: 35px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+#Menu_Cabecera a:hover {
+  
+    background-color: rgb(136, 25, 25);
+}
+
+#Menu_Cabecera a.active {
+    background-color: blueviolet;
+
+}

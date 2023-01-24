@@ -1,0 +1,33 @@
+#Contenedora {
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+}
+
+#Cabecera{
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#Menu_Vertical a {
+    width: 20%;
+      display: block;
+      padding: 12px;
+      background-color: aqua;
+      text-align: center;
+      font-size: 35px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+}
+
+#Menu_Vertical a:hover {
+  
+    background-color: rgb(136, 25, 25);
+}
+
+#Menu_Vertical a.active {
+    background-color: blueviolet;
+
+}

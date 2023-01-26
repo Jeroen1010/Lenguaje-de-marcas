@@ -1,0 +1,53 @@
+h1{text-align: center;}
+h2{text-align: center;}
+#Form1{
+    text-align: center;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius:10px;
+}
+
+#Form2{
+    text-align: center;
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius:10px;
+}
+
+#Form3{
+    text-align: center;
+    padding: 20px;
+    background-color: lightpink;
+    border-radius:10px;
+}
+
+#Form4{
+    text-align: center;
+    padding: 20px;
+    background-color: lightsalmon;
+    border-radius:10px;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor: cell;
+}
+
+form input[type="text"]:hover{
+	cursor:crosshair;
+}
+
+textarea{
+    resize:none;
+	display:block;
+}

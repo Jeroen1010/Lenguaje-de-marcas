@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: Verdana, serif;
+    }
+
+    header{
+        padding: 30px;
+        background: #ee8f59;
+        color: #FFFFFF;
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    nav{
+        display: flex;
+        justify-content: flex-start;
+        background: #e65806;
+    }
+
+    nav a{
+        color: #fdfdfd;
+        text-decoration: none;
+        padding: 15px;
+        text-decoration: underline;
+    }
+
+    nav a:hover{
+        background: #eb6f6b;
+        color: #CCCCCC;
+    }
+
+    section{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        article{
+            padding: 10px;
+            text-align: center;
+            width: 300px;
+        }
+
+        #articulo-1{
+            background: #7ebdbb;
+            width: 300px;
+        }
+
+        #articulo-2{
+            background: #b6ebb3;
+            width: 300px;
+        }
+
+        #articulo-3{
+            background: #bacee3;
+            width: 300px;
+        }
+
+        #articulo-4{
+            background: #4088d4;
+            width: 300px;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        img{
+            width: 100%;
+        }
+</style>
+</head>
+<body>
+
+    <div id="Cabecera">
+        
+        <header>CUBIX</header>
+        <nav>
+            <a href="#">Flexbox</a>
+            <a href="#">CSS</a>
+            <a href="#">Imágenes</a>
+            <a href="#">Info</a>
+        </nav>
+    </div>
+
+    <div id="Portada">
+        <img src="portada.png" alt="portada" width="100%"></img>
+        <section>
+            <article id="articulo-1">
+                <img src="raton.jpg">
+                <h1>Ratón</h1>
+                <p>
+                Raton con 16000 dpi marca Logitech.
+                </p>
+            </article>
+            <article id="articulo-2">
+                <img src="pantalla.jpg">
+                <h1>Pantalla</h1>
+                <p>
+                    Pantalla 1080p de 144Hz solo por 100€.
+                </p>
+        
+            </article>
+            <article id="articulo-3">
+                <img src="altavoz.jpg">
+                <h1>Altavoz</h1>
+                <p>
+                    Un altavoz con uno de los mejores sonidos del mercado.
+                </p>
+            
+            </article>
+            <article id="articulo-4">
+                <img src="portatil.jpg" alt="Portatil"></img>
+                <h1>Portátil</h1>
+                <p>
+                    Portátil para jugar videojuegos.
+                </p>
+            </article>
+        </section>
+    </div>
+
+    <div id="Pie">
+        <footer>
+
+            <section>
+
+                <article id="articulo-5">
+                    <h3>POR QUE COMPRAR</h3>
+                    <pre>
+                        Formas de pago
+                        Gastos de envío
+                        Opiniones de clientes
+                    </pre>
+                </article>
+
+                <article id="articulo-6">
+                    <h3>QUIENES SOMOS</h3>
+                </article>
+
+
+            </section>
+
+        </footer>
+    </div>
+    
+</body>
+</html>

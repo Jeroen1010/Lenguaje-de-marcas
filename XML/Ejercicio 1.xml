@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensaje>
+<remitente>
+<nombre></nombre>
+<email></email>
+</remitente>
+<destinatario>
+<nombre></nombre>
+<email></email>
+</destinatario>
+<asunto></asunto>
+<texto>
+<parrafo>
+Hola mi nombre es Pepe y tengo 27 años.
+Hola buenas noches mi nombre es Paco.
+Hola soy Jose y soy un obrero.
+</parrafo>
+</texto>
+</mensaje>

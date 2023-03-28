@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+  <datos-personales>
+    <nombre>Jeroen</nombre>
+    <apellidos>Jáspez Martínez</apellidos>
+    <fecha_nac>09/02/2004</fecha_nac>
+    <lugar_nac>Granada</lugar_nac>
+    <nacionalidad>Española</nacionalidad>
+    <DNI>75574943W</DNI>
+    <foto_empleado>perfil.png</foto_empleado>
+  </datos-personales>
+  
+  <datos-contacto>
+    <tipo_via>Avenida</tipo_via>
+    <nombre_via>Don Bosco</nombre_via>
+    <número>13</número>
+    <portal>13</portal>
+    <escalera>6</escalera>
+    <piso>6º</piso>
+    <puerta>A</puerta>
+    <CP>18006</CP>
+    <país>España</país>
+    <email>jeroenjaspez10@gmail.com</email>
+    <teléfono_móvil>677357595</teléfono_móvil>
+    <teléfono_fijo>958125246</teléfono_fijo>
+    <página_web>jeroen1010.github.io</página_web>
+    <cuentas_sociales>Intagram/jjmaartinez_10.com</cuentas_sociales>
+  </datos-contacto>
+  
+  <formación-académica>
+    <título>Bachillerato científico-tecnológico</título>
+    <lugar_realización>Salesianos Granada</lugar_realización>
+    <fecha_ini>20/09/2020</fecha_ini>
+    <fecha_fin>30/05/2022</fecha_fin>
+  </formación-académica>
+  
+  <idiomas>
+    <nombre>Inglés</nombre>
+    <nivel_exp_oral>Bueno</nivel_exp_oral>
+    <nivel_comp_oral>Decente</nivel_comp_oral>
+    <nivel_exp_escrita>Muy bueno</nivel_exp_escrita>
+    <nivel_comp_escrita>Excelente</nivel_comp_escrita>
+    <titulo_acreditativo>Cambridge</titulo_acreditativo>
+    <nivel_título>C1</nivel_título>
+  </idiomas>
+  
+  <exp-laboral>
+    <lugar>Granada</lugar>
+    <puesto>Reponedor</puesto>
+    <fecha_ini>10/10/21</fecha_ini>
+    <fecha_fin>25/06/22</fecha_fin>
+  </exp-laboral>
+  
+  <competencias-socio-profesionales>
+    <nombre_compe>Trabajo en equipo</nombre_compe>
+    <nivel_compe>Nivel elevado</nivel_compe>
+  </competencias-socio-profesionales>
+  
+  <datos-adicionales>
+    <aficciones>Deporte y videojuegos</aficciones>
+    <dispo_viajar>Disponible</dispo_viajar>
+    <vehiculo_propio>SI</vehiculo_propio>
+    <licencias>Permiso de conducción B</licencias>
+  </datos-adicionales>
+
+</curriculum>

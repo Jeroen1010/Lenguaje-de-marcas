@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<raiz xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNameSpaceSchemaLocation="Ejemplo.xsd">
+<etiqueta1>1</etiqueta1>
+<etiqueta2>
+  <etiqueta3>2023-06-02</etiqueta3>
+  
+</etiqueta2>
+</raiz>

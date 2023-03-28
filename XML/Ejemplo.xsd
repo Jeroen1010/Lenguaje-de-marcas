@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="raiz">
+    <xs:complexType>
+      <xs:all>
+        <xs:element name="etiqueta1" type="xs:integer" minOccurs="2" maxOccurs="unbounded"/> <!-- el min y el max es para las veces que queramos que aparezca la etiqueta1, el unbounded es par que salga un numero indefinido de veces-->
+        <xs:element name="etiqueta2" type="tipoEtiqueta2"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  
+    <xs:complexType name="tipoEtiqueta2">
+      <xs:sequence>
+        <xs:element name="etiqueta3" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+
+<xs.simpleType name="numerosPositivos">
+  <xs:restriction base="xs:date">
+    <xs:minInclusive value="1">
+    </xs:minInclusive>
+  </xs:restriction>
+</xs.simpleType>
+  
+</xs:schema>
